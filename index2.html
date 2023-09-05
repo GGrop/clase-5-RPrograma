@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+<body>
+  <div class="container mt-5">
+    <h1 id="bienvenida">Bienvenido! Calcula las horas totales del curso</h1>
+    <p>Contador de clases: <strong id="contador-clases">0</strong></p>
+    <p>Tiempo total de clases: <strong id="tiempo-total-clases"></strong></p>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Ingresa horas del video</label>
+        <input type="number" class="form-control tiempo"  id="tiempo-hora" placeholder="Horas">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Ingresa minutos del video</label>
+        <input type="number" class="form-control tiempo" id="tiempo-minuto" placeholder="Minutos">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Ingresa segundos del video</label>
+        <input type="number" class="form-control tiempo" id="tiempo-segundo" placeholder="Segundos">
+      </div>
+      <button class="btn btn-primary" id="boton-agregar">Agregar</button>
+      <button class="btn btn-primary" id="boton-finalizar">Calcular</button>
+    </form>
+    <script src="index2.js"></script>
+  </div>
+</body>
+</html>
